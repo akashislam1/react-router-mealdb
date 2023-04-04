@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-header {
+  @apply md:w-5/6 mx-auto p-3 bg-gray-200 rounded-lg;
+}
+.my-container {
+  @apply md:w-5/6 mx-auto bg-slate-300 my-4;
+}
